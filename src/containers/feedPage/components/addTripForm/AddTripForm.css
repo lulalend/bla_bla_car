@@ -1,0 +1,59 @@
+.addTripForm {
+    position: fixed;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+
+    background-color: #ffffff;
+    width: 400px;
+    padding: 20px;
+
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cancelBtn {
+    position: absolute;
+    right: 2px;
+    top: 5px;
+
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cancelBtn:hover {
+    color: #000000D0;
+}
+
+.addTripForm div + div {
+    margin-top: 15px;
+}
+
+.addTripForm h2 {
+    margin: 0 0 20px;
+}
+
+.addFormInput {
+    width: 100%;
+    padding: 4px 5px;
+    border-radius: 8px;
+    border: 1px solid rgb(138, 136, 136)
+}
+
+.addFormInput:focus::placeholder {
+    color: transparent;
+}
+
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    background-color: #000000A0;
+}

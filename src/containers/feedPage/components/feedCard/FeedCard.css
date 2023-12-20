@@ -1,0 +1,31 @@
+p {
+    margin: 0.35rem;
+}
+
+.trip {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    padding: 10px 20px 15px;
+    margin-top: 30px;
+
+    background-color: #EAEAEA90;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px #BABECCBB;
+
+    text-align: left;
+}
+
+.explanations {
+    /*padding-left: 2rem;*/
+    grid-column: 1/1;
+}
+
+.values {
+    grid-column: 2/2;
+}
+
+.trip .darkBtn {
+    margin-top: 1rem;
+    /*margin: 1rem 0 0 2rem;*/
+}
